@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #f44336;
+    box-shadow: 0px 6px 12px -8px #000000;
+    position: relative;
+    z-index: 1;
+}
+
+.topnav a {
+    display: block;
+    float: left;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-align: center;
+    padding: 12px 24px;
+    text-decoration: none;
+    line-height: 27px;
+}
+
+.active {
+    background-color: white;
+    color: #000 !important;
+}
+
+.active:hover {
+    background-color: lightgrey;
+    color: #000 !important;
+}
+
+.topnav a:hover:not(.active) {
+    background-color: white;
+    color: #000;
+}
+
+/* Responsive layout - when the screen is less than 605px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 605px) {
+    .topnav a {
+        text-align: center;
+        float: none;
+        width: 100%;
+    }
+}
+
+.head {
+    background-color: #f44336 !important;
+    padding: 128px 16px;
+    text-align: center;
+}
+
+.head h1 {
+    margin: 16px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+}
+
+.head p {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px !important;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.head a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #000;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 14px 26px !important;
+    margin-top: 16px !important;
+}
+
+/* a.link {
+    margin-right: 58.5%;
+    min-width: 20px;
+    padding: 8px 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    border: lightgray 1px solid;
+    text-decoration: none;
+}
+
+a.link:hover,
+:visited,
+:active {
+    color: #000;
+    text-decoration: none;
+}
+
+a.link:hover {
+    background-color: darkgrey;
+    text-decoration: none;
+} */
